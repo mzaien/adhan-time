@@ -19,7 +19,7 @@
       "interval": "24h"
     },
     {
-      "name": "adhan-menu",
+      "name": "adhan",
       "title": "View Prayer Time on Menu Bar",
       "description": "View adhan prayer times directly from your menubar",
       "mode": "menu-bar",
@@ -40,6 +40,15 @@
       "description": "Enter your city name",
       "type": "textfield",
       "required": true
+    },
+    {
+      "name": "hanfi",
+      "title": "Hanfi Calculation",
+      "description": "Use hanfi school calculation",
+      "label": "Use hanfi school calculation",
+      "type": "checkbox",
+      "default": false,
+      "required": false
     },
     {
       "name": "calculation_methods",
